@@ -1,5 +1,7 @@
 package com.example.a99namesofallah;
 
+import static com.example.a99namesofallah.databinding.FragmentReadNamesBinding.inflate;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,11 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.a99namesofallah.databinding.FragmentSecondBinding;
+import com.example.a99namesofallah.databinding.FragmentReadNamesBinding;
 
-public class SecondFragment extends Fragment {
+public class ReadNamesFragment extends Fragment {
 
-    private FragmentSecondBinding binding;
+    private FragmentReadNamesBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,21 +23,13 @@ public class SecondFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
+        binding = FragmentReadNamesBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
-            }
-        });
     }
 
     @Override
