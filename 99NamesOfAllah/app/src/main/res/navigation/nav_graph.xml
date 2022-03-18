@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/ReadNames"
         android:name="com.example.a99namesofallah.ReadNamesFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/appBar_label"
         tools:layout="@layout/fragment_read_names" />
     <fragment
         android:id="@+id/MemorizeNames"
         android:name="com.example.a99namesofallah.MemorizeNamesFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/appBar_label"
         tools:layout="@layout/fragment_memorize_names" />
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.a99namesofallah.HomeFragment"
-        android:label="fragment_home"
+        android:label="@string/appBar_label"
         tools:layout="@layout/fragment_home" />
 </navigation>
