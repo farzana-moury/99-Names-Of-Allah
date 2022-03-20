@@ -3,4 +3,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment"/>
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/divider_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divider_up"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/quran_verse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/remembrance_verse_arabic"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/divider_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/divider_down"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/quran_verse_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/remembrance_verse_english"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/read_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/read_fragment_button"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/memorize_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/memorize_fragment_button"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+</LinearLayout>

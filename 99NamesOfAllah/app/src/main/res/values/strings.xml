@@ -4,6 +4,17 @@
     <!-- Strings used for fragments for navigation -->
     <string name="appBar_label">99 Names of Allah</string>
 
+    <string name="divider_up">┏━━━━━━ ༻❁༺ ━━━━━━┓</string>
+    <string name="divider_down">┗━━━━━━ ༻❁༺ ━━━━━━┛</string>
+
+    <string name="remembrance_verse_arabic">الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ (٢٨)</string>
+    <string name="remembrance_verse_english">those who have believed and
+        whose hearts find comfort in the remembrance of Allah.
+        Indeed, in the remembrance of Allah do hearts find comfort.\n────\n(The Holy Quran, 13:28)</string>
+
+    <string name="read_fragment_button">Read</string>
+    <string name="memorize_fragment_button">Memorize</string>
+
     <!--  Allah's 99 names in English  -->
     <string name="eng_name_0">Allah</string>
     <string name="eng_name_1">Ar-Rahman</string>
@@ -29,7 +40,7 @@
     <string name="eng_name_21">Al-Basit</string>
     <string name="eng_name_22">Al-Khafid</string>
     <string name="eng_name_23">Ar-Rafi\'</string>
-    <string name="eng_name_24">Al-Mu\'izz'</string>
+    <string name="eng_name_24">Al-Mu\'izz\'</string>
     <string name="eng_name_25">Al-Mudhill</string>
     <string name="eng_name_26">As-Samee\'</string>
     <string name="eng_name_27">Al-Baseer</string>
