@@ -19,5 +19,12 @@
         android:id="@+id/homeFragment"
         android:name="com.example.a99namesofallah.HomeFragment"
         android:label="@string/appBar_label"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_ReadNames"
+            app:destination="@id/ReadNames" />
+        <action
+            android:id="@+id/action_homeFragment_to_MemorizeNames"
+            app:destination="@id/MemorizeNames" />
+    </fragment>
 </navigation>
