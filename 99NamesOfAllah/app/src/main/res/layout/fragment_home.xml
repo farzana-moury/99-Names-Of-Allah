@@ -10,8 +10,10 @@
         android:id="@+id/divider_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="@string/divider_up"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/blue_700" />
 
     <TextView
         android:id="@+id/quran_verse"
@@ -19,15 +21,17 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="@string/remembrance_verse_arabic"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/blue_500" />
 
     <TextView
         android:id="@+id/divider_down"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/divider_down"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/blue_700" />
 
     <TextView
         android:id="@+id/quran_verse_meaning"
@@ -35,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:text="@string/remembrance_verse_english"
         android:textAlignment="center"
         android:textSize="14sp"
