@@ -15,308 +15,316 @@
     <string name="memorize_fragment_button">Memorize</string>
 
     <!--  Allah's 99 names in English  -->
-    <string name="eng_name_0">Allah</string>
-    <string name="eng_name_1">Ar-Rahman</string>
-    <string name="eng_name_2">Ar-Raheem</string>
-    <string name="eng_name_3">Al-Malik</string>
-    <string name="eng_name_4">Al-Quddus</string>
-    <string name="eng_name_5">As-Salam</string>
-    <string name="eng_name_6">Al-Mu\'min</string>
-    <string name="eng_name_7">Al-Muhaymin</string>
-    <string name="eng_name_8">Al-Azeez</string>
-    <string name="eng_name_9">Al-Jabbar</string>
-    <string name="eng_name_10">Al-Mutakabbir</string>
-    <string name="eng_name_11">Al-Khaliq</string>
-    <string name="eng_name_12">Al-Bari\'</string>
-    <string name="eng_name_13">Al-Musawwir</string>
-    <string name="eng_name_14">Al-Ghaffar</string>
-    <string name="eng_name_15">Al-Qahaar</string>
-    <string name="eng_name_16">Al-Wahhab</string>
-    <string name="eng_name_17">Ar-Razzaq</string>
-    <string name="eng_name_18">Ar-Fattah</string>
-    <string name="eng_name_19">Al-\'Aleem</string>
-    <string name="eng_name_20">Al-Qabid</string>
-    <string name="eng_name_21">Al-Basit</string>
-    <string name="eng_name_22">Al-Khafid</string>
-    <string name="eng_name_23">Ar-Rafi\'</string>
-    <string name="eng_name_24">Al-Mu\'izz\'</string>
-    <string name="eng_name_25">Al-Mudhill</string>
-    <string name="eng_name_26">As-Samee\'</string>
-    <string name="eng_name_27">Al-Baseer</string>
-    <string name="eng_name_28">Al-Hakaam</string>
-    <string name="eng_name_29">Al-\'Adl</string>
-    <string name="eng_name_30">Al-Latif</string>
-    <string name="eng_name_31">Al-Khabeer</string>
-    <string name="eng_name_32">Al-Haleem</string>
-    <string name="eng_name_33">Al-\'Azeem</string>
-    <string name="eng_name_34">Al-Ghafur</string>
-    <string name="eng_name_35">Ash-Shakur</string>
-    <string name="eng_name_36">Al-\'Ali</string>
-    <string name="eng_name_37">Al-Kabeer</string>
-    <string name="eng_name_38">Al-Hafiz</string>
-    <string name="eng_name_39">Al-Muqeet</string>
-    <string name="eng_name_40">Al-Haseeb</string>
-    <string name="eng_name_41">Al-Jaleel</string>
-    <string name="eng_name_42">Al-Kareem</string>
-    <string name="eng_name_43">Ar-Raqeeb</string>
-    <string name="eng_name_44">Al-Mujeeb</string>
-    <string name="eng_name_45">Al-Waasi\'</string>
-    <string name="eng_name_46">Al-Hakeem</string>
-    <string name="eng_name_47">Al-Wadud</string>
-    <string name="eng_name_48">Al-Majeed</string>
-    <string name="eng_name_49">Al-Ba\'ith</string>
-    <string name="eng_name_50">Ash-Shaheed</string>
-    <string name="eng_name_51">Al-Haqq</string>
-    <string name="eng_name_52">Al-Wakeel</string>
-    <string name="eng_name_53">Al-Qawiyy</string>
-    <string name="eng_name_54">Al-Mateen</string>
-    <string name="eng_name_55">Al-Waliyy</string>
-    <string name="eng_name_56">Al-Hameed</string>
-    <string name="eng_name_57">Al-Muhsee</string>
-    <string name="eng_name_58">Al-Mubdi</string>
-    <string name="eng_name_59">Al-Mu\'id</string>
-    <string name="eng_name_60">Al-Muhyee</string>
-    <string name="eng_name_61">Al-Mumeet</string>
-    <string name="eng_name_62">Al-Hayy</string>
-    <string name="eng_name_63">Al-Qayyum</string>
-    <string name="eng_name_64">Al-Wajid</string>
-    <string name="eng_name_65">Al-Majid</string>
-    <string name="eng_name_66">Al-Wahid</string>
-    <string name="eng_name_67">Al-Ahad</string>
-    <string name="eng_name_68">As-Samad</string>
-    <string name="eng_name_69">Al-Qadir</string>
-    <string name="eng_name_70">Al-Muqtadir</string>
-    <string name="eng_name_71">Al-Muqaddim</string>
-    <string name="eng_name_72">Al-Mu\'akkhir</string>
-    <string name="eng_name_73">Al-Awwal</string>
-    <string name="eng_name_74">Al-Akhir</string>
-    <string name="eng_name_75">Az-Zahir</string>
-    <string name="eng_name_76">Al-Batin</string>
-    <string name="eng_name_77">Al-Wali</string>
-    <string name="eng_name_78">Al-Muta\'ali</string>
-    <string name="eng_name_79">Al-Barr</string>
-    <string name="eng_name_80">At-Tawwab</string>
-    <string name="eng_name_81">Al-Muntaqim</string>
-    <string name="eng_name_82">Al-\'Afuww</string>
-    <string name="eng_name_83">Ar-Ra\'uf</string>
-    <string name="eng_name_84">Malik al Mulk</string>
-    <string name="eng_name_85">Dhul-Jalal-wal-Ikram</string>
-    <string name="eng_name_86">Al-Muqsit</string>
-    <string name="eng_name_87">Al-Jami\'</string>
-    <string name="eng_name_88">Al-Ghani</string>
-    <string name="eng_name_89">Al-Mughni</string>
-    <string name="eng_name_90">Al-Mani\'</string>
-    <string name="eng_name_91">Ad-Darr</string>
-    <string name="eng_name_92">An-Nafi\'</string>
-    <string name="eng_name_93">An-Nur</string>
-    <string name="eng_name_94">Al-Hadi</string>
-    <string name="eng_name_95">Al-Badi\'</string>
-    <string name="eng_name_96">Al-Baqi</string>
-    <string name="eng_name_97">Al-Warith</string>
-    <string name="eng_name_98">Ar-Rasheed</string>
-    <string name="eng_name_99">As-Saboor</string>
+    <string-array name="english_names">
+        <item>Allah</item>
+        <item>Ar-Rahman</item>
+        <item>Ar-Raheem</item>
+        <item>Al-Malik</item>
+        <item>Al-Quddus</item>
+        <item>As-Salam</item>
+        <item>Al-Mu\'min</item>
+        <item>Al-Muhaymin</item>
+        <item>Al-Azeez</item>
+        <item>Al-Jabbar</item>
+        <item>Al-Mutakabbir</item>
+        <item>Al-Khaliq</item>
+        <item>Al-Bari\'</item>
+        <item>Al-Musawwir</item>
+        <item>Al-Ghaffar</item>
+        <item>Al-Qahaar</item>
+        <item>Al-Wahhab</item>
+        <item>Ar-Razzaq</item>
+        <item>Ar-Fattah</item>
+        <item>Al-\'Aleem</item>
+        <item>Al-Qabid</item>
+        <item>Al-Basit</item>
+        <item>Al-Khafid</item>
+        <item>Ar-Rafi\'</item>
+        <item>Al-Mu\'izz\'</item>
+        <item>Al-Mudhill</item>
+        <item>As-Samee\'</item>
+        <item>Al-Baseer</item>
+        <item>Al-Hakaam</item>
+        <item>Al-\'Adl</item>
+        <item>Al-Latif</item>
+        <item>Al-Khabeer</item>
+        <item>Al-Haleem</item>
+        <item>Al-\'Azeem</item>
+        <item>Al-Ghafur</item>
+        <item>Ash-Shakur</item>
+        <item>Al-\'Ali</item>
+        <item>Al-Kabeer</item>
+        <item>Al-Hafiz</item>
+        <item>Al-Muqeet</item>
+        <item>Al-Haseeb</item>
+        <item>Al-Jaleel</item>
+        <item>Al-Kareem</item>
+        <item>Ar-Raqeeb</item>
+        <item>Al-Mujeeb</item>
+        <item>Al-Waasi\'</item>
+        <item>Al-Hakeem</item>
+        <item>Al-Wadud</item>
+        <item>Al-Majeed</item>
+        <item>Al-Ba\'ith</item>
+        <item>Ash-Shaheed</item>
+        <item>Al-Haqq</item>
+        <item>Al-Wakeel</item>
+        <item>Al-Qawiyy</item>
+        <item>Al-Mateen</item>
+        <item>Al-Waliyy</item>
+        <item>Al-Hameed</item>
+        <item>Al-Muhsee</item>
+        <item>Al-Mubdi</item>
+        <item>Al-Mu\'id</item>
+        <item>Al-Muhyee</item>
+        <item>Al-Mumeet</item>
+        <item>Al-Hayy</item>
+        <item>Al-Qayyum</item>
+        <item>Al-Wajid</item>
+        <item>Al-Majid</item>
+        <item>Al-Wahid</item>
+        <item>Al-Ahad</item>
+        <item>As-Samad</item>
+        <item>Al-Qadir</item>
+        <item>Al-Muqtadir</item>
+        <item>Al-Muqaddim</item>
+        <item>Al-Mu\'akkhir</item>
+        <item>Al-Awwal</item>
+        <item>Al-Akhir</item>
+        <item>Az-Zahir</item>
+        <item>Al-Batin</item>
+        <item>Al-Wali</item>
+        <item>Al-Muta\'ali</item>
+        <item>Al-Barr</item>
+        <item>At-Tawwab</item>
+        <item>Al-Muntaqim</item>
+        <item>Al-\'Afuww</item>
+        <item>Ar-Ra\'uf</item>
+        <item>Malik al Mulk</item>
+        <item>Dhul-Jalal-wal-Ikram</item>
+        <item>Al-Muqsit</item>
+        <item>Al-Jami\'</item>
+        <item>Al-Ghani</item>
+        <item>Al-Mughni</item>
+        <item>Al-Mani\'</item>
+        <item>Ad-Darr</item>
+        <item>An-Nafi\'</item>
+        <item>An-Nur</item>
+        <item>Al-Hadi</item>
+        <item>Al-Badi\'</item>
+        <item>Al-Baqi</item>
+        <item>Al-Warith</item>
+        <item>Ar-Rasheed</item>
+        <item>As-Saboor</item>
+    </string-array>
+
 
     <!--  Allah's 99 names in Arabic  -->
-    <string name="arab_name_0">الله</string>
-    <string name="arab_name_1">اَلرَّحْمَان</string>
-    <string name="arab_name_2">اَلرَّحِيم</string>
-    <string name="arab_name_3">اَلْمَلِك</string>
-    <string name="arab_name_4">اَلْقُدُّوس</string>
-    <string name="arab_name_5">اَلسَّلَام</string>
-    <string name="arab_name_6">اَلْمُؤْمِن</string>
-    <string name="arab_name_7">اَلْمُهَيْمِن</string>
-    <string name="arab_name_8">اَلْعَزِيز</string>
-    <string name="arab_name_9">اَلْجَبَّار</string>
-    <string name="arab_name_10">اَلْمُتَكَبِّر</string>
-    <string name="arab_name_11">اَلْخَالِق</string>
-    <string name="arab_name_12">اَلْبَارِئ</string>
-    <string name="arab_name_13">اَلْمُصَوِّر</string>
-    <string name="arab_name_14">اَلْغَفَّار</string>
-    <string name="arab_name_15">اَلْقَهَّار</string>
-    <string name="arab_name_16">اَلْوَهَّاب</string>
-    <string name="arab_name_17">اَلرَّزَّاق</string>
-    <string name="arab_name_18">اَلْفَتَّاح</string>
-    <string name="arab_name_19">اَلْعَلِيم</string>
-    <string name="arab_name_20">اَلْقَابِض</string>
-    <string name="arab_name_21">اَلْبَاسِط</string>
-    <string name="arab_name_22">اَلْخَافِض</string>
-    <string name="arab_name_23">اَلرَّافِع</string>
-    <string name="arab_name_24">اَلْمُعِزّ</string>
-    <string name="arab_name_25">اَلْمُذِلّ</string>
-    <string name="arab_name_26">اَلسَّمِيع</string>
-    <string name="arab_name_27">اَلْبَصِير</string>
-    <string name="arab_name_28">اَلْحَكَم</string>
-    <string name="arab_name_29">اَلْعَدْل</string>
-    <string name="arab_name_30">اَللَّطِيف</string>
-    <string name="arab_name_31">اَلْخَبِير</string>
-    <string name="arab_name_32">اَلْحَلِيم</string>
-    <string name="arab_name_33">اَلْعَظِيم</string>
-    <string name="arab_name_34">اَلْغَفُور</string>
-    <string name="arab_name_35">اَلشَّكُور</string>
-    <string name="arab_name_36">اَلْعَلِي</string>
-    <string name="arab_name_37">اَلْكَبِير</string>
-    <string name="arab_name_38">اَلْحَفِيظ</string>
-    <string name="arab_name_39">اَلْمُقِيت</string>
-    <string name="arab_name_40">اَلْحَسِيب</string>
-    <string name="arab_name_41">اَلْجَلِيل</string>
-    <string name="arab_name_42">اَلْكَرِيم</string>
-    <string name="arab_name_43">اَلرَّقِيب</string>
-    <string name="arab_name_44">اَلْمُجِيب</string>
-    <string name="arab_name_45">اَلْوَاسِع</string>
-    <string name="arab_name_46">اَلْحَكِيم</string>
-    <string name="arab_name_47">اَلْوَدُود</string>
-    <string name="arab_name_48">اَلْمَجِيد</string>
-    <string name="arab_name_49">اَلْبَاعِث</string>
-    <string name="arab_name_50">اَلشَّهِيد</string>
-    <string name="arab_name_51">اَلْحَق</string>
-    <string name="arab_name_52">اَلْوَكِيل</string>
-    <string name="arab_name_53">اَلْقَوِيّ</string>
-    <string name="arab_name_54">اَلْمَتِينّ</string>
-    <string name="arab_name_55">اَلْوَلِيّّ</string>
-    <string name="arab_name_56">اَلْحَمِيدّّ</string>
-    <string name="arab_name_57">اَلْمُحْصِيّّ</string>
-    <string name="arab_name_58">اَلْمُبْدِئّّ</string>
-    <string name="arab_name_59">اَلْمُعِيد</string>
-    <string name="arab_name_60">اَلْمُحْيِي</string>
-    <string name="arab_name_61">اَلْمُمِيت</string>
-    <string name="arab_name_62">اَلْحَي</string>
-    <string name="arab_name_63">اَلْقَيُّوم</string>
-    <string name="arab_name_64">اَلْوَاجِد</string>
-    <string name="arab_name_65">اَلْمَاجِد</string>
-    <string name="arab_name_66">اَلْوَاحِد</string>
-    <string name="arab_name_67">اَلْأَحَد</string>
-    <string name="arab_name_68">اَلصَّمَد</string>
-    <string name="arab_name_69">اَلْقَادِر</string>
-    <string name="arab_name_70">اَلْمُقْتَدِر</string>
-    <string name="arab_name_71">اَلْمُقَدِّم</string>
-    <string name="arab_name_72">اَلْمُؤَخِّر</string>
-    <string name="arab_name_73">اَلْأَوَّل</string>
-    <string name="arab_name_74">اَلْأَخِر</string>
-    <string name="arab_name_75">اَلظَّاهِر</string>
-    <string name="arab_name_76">اَلْبَاطِن</string>
-    <string name="arab_name_77">اَلْوَالِي</string>
-    <string name="arab_name_78">اَلْمُتَعَالِي</string>
-    <string name="arab_name_79">اَلْبَرّ</string>
-    <string name="arab_name_80">اَلتَّوَّابّ</string>
-    <string name="arab_name_81">اَلْمُنْتَقِمّ</string>
-    <string name="arab_name_82">اَلْعَفُوّ</string>
-    <string name="arab_name_83">اَلرَّؤُوفّ</string>
-    <string name="arab_name_84">مَالِك الْمُلْك</string>
-    <string name="arab_name_85">ذُو ٱلْجَلَالِ وَٱلْإِكْرَام</string>
-    <string name="arab_name_86">اَلْمُقْسِط</string>
-    <string name="arab_name_87">اَلْجَامِع</string>
-    <string name="arab_name_88">اَلْغَنِيّ</string>
-    <string name="arab_name_89">ااَلْمُغْنِيّ</string>
-    <string name="arab_name_90">اَلْمَانِع</string>
-    <string name="arab_name_91">اَلضَّار</string>
-    <string name="arab_name_92">اَلنَّافِع</string>
-    <string name="arab_name_93">اَلنُّور</string>
-    <string name="arab_name_94">اَلْهَادِي</string>
-    <string name="arab_name_95">اَلْبَدِيع</string>
-    <string name="arab_name_96">اَلْبَاقِي</string>
-    <string name="arab_name_97">اَلْوَارِث</string>
-    <string name="arab_name_98">اَلرَّشِيد</string>
-    <string name="arab_name_99">اَلصَّبُور</string>
+    <string-array name="arabic_names">
+        <item>الله</item>
+        <item>اَلرَّحْمَان</item>
+        <item>اَلرَّحِيم</item>
+        <item>اَلْمَلِك</item>
+        <item>اَلْقُدُّوس</item>
+        <item>اَلسَّلَام</item>
+        <item>اَلْمُؤْمِن</item>
+        <item>اَلْمُهَيْمِن</item>
+        <item>اَلْعَزِيز</item>
+        <item>اَلْجَبَّار</item>
+        <item>اَلْمُتَكَبِّر</item>
+        <item>اَلْخَالِق</item>
+        <item>اَلْبَارِئ</item>
+        <item>اَلْمُصَوِّر</item>
+        <item>اَلْغَفَّار</item>
+        <item>اَلْقَهَّار</item>
+        <item>اَلْوَهَّاب</item>
+        <item>اَلرَّزَّاق</item>
+        <item>اَلْفَتَّاح</item>
+        <item>اَلْعَلِيم</item>
+        <item>اَلْقَابِض</item>
+        <item>اَلْبَاسِط</item>
+        <item>اَلْخَافِض</item>
+        <item>اَلرَّافِع</item>
+        <item>اَلْمُعِزّ</item>
+        <item>اَلْمُذِلّ</item>
+        <item>اَلسَّمِيع</item>
+        <item>اَلْبَصِير</item>
+        <item>اَلْحَكَم</item>
+        <item>اَلْعَدْل</item>
+        <item>اَللَّطِيف</item>
+        <item>اَلْخَبِير</item>
+        <item>اَلْحَلِيم</item>
+        <item>اَلْعَظِيم</item>
+        <item>اَلْغَفُور</item>
+        <item>اَلشَّكُور</item>
+        <item>اَلْعَلِي</item>
+        <item>اَلْكَبِير</item>
+        <item>اَلْحَفِيظ</item>
+        <item>اَلْمُقِيت</item>
+        <item>اَلْحَسِيب</item>
+        <item>اَلْجَلِيل</item>
+        <item>اَلْكَرِيم</item>
+        <item>اَلرَّقِيب</item>
+        <item>اَلْمُجِيب</item>
+        <item>اَلْوَاسِع</item>
+        <item>اَلْحَكِيم</item>
+        <item>اَلْوَدُود</item>
+        <item>اَلْمَجِيد</item>
+        <item>اَلْبَاعِث</item>
+        <item>اَلشَّهِيد</item>
+        <item>اَلْحَق</item>
+        <item>اَلْوَكِيل</item>
+        <item>اَلْقَوِيّ</item>
+        <item>اَلْمَتِينّ</item>
+        <item>اَلْوَلِيّّ</item>
+        <item>اَلْحَمِيدّّ</item>
+        <item>اَلْمُحْصِيّّ</item>
+        <item>اَلْمُبْدِئّّ</item>
+        <item>اَلْمُعِيد</item>
+        <item>اَلْمُحْيِي</item>
+        <item>اَلْمُمِيت</item>
+        <item>اَلْحَي</item>
+        <item>اَلْقَيُّوم</item>
+        <item>اَلْوَاجِد</item>
+        <item>اَلْمَاجِد</item>
+        <item>اَلْوَاحِد</item>
+        <item>اَلْأَحَد</item>
+        <item>اَلصَّمَد</item>
+        <item>اَلْقَادِر</item>
+        <item>اَلْمُقْتَدِر</item>
+        <item>اَلْمُقَدِّم</item>
+        <item>اَلْمُؤَخِّر</item>
+        <item>اَلْأَوَّل</item>
+        <item>اَلْأَخِر</item>
+        <item>اَلظَّاهِر</item>
+        <item>اَلْبَاطِن</item>
+        <item>اَلْوَالِي</item>
+        <item>اَلْمُتَعَالِي</item>
+        <item>اَلْبَرّ</item>
+        <item>اَلتَّوَّابّ</item>
+        <item>اَلْمُنْتَقِمّ</item>
+        <item>اَلْعَفُوّ</item>
+        <item>اَلرَّؤُوفّ</item>
+        <item>مَالِك الْمُلْك</item>
+        <item>ذُو ٱلْجَلَالِ وَٱلْإِكْرَام</item>
+        <item>اَلْمُقْسِط</item>
+        <item>اَلْجَامِع</item>
+        <item>اَلْغَنِيّ</item>
+        <item>ااَلْمُغْنِيّ</item>
+        <item>اَلْمَانِع</item>
+        <item>اَلضَّار</item>
+        <item>اَلنَّافِع</item>
+        <item>اَلنُّور</item>
+        <item>اَلْهَادِي</item>
+        <item>اَلْبَدِيع</item>
+        <item>اَلْبَاقِي</item>
+        <item>اَلْوَارِث</item>
+        <item>اَلرَّشِيد</item>
+        <item>اَلصَّبُور</item>
+    </string-array>
+
 
     <!--  English meanings of Allah's 99 names  -->
-    <string name="meaning_0">The Greatest Name</string>
-    <string name="meaning_1">The Most Gracious</string>
-    <string name="meaning_2">The Most Merciful</string>
-    <string name="meaning_3">The Absolute Ruler</string>
-    <string name="meaning_4">The Most Pure</string>
-    <string name="meaning_5">The Source of Peace</string>
-    <string name="meaning_6">The Inspirer of Faith</string>
-    <string name="meaning_7">The Protector</string>
-    <string name="meaning_8">The Mighty One</string>
-    <string name="meaning_9">The Compeller</string>
-    <string name="meaning_10">The Supreme</string>
-    <string name="meaning_11">The Creator</string>
-    <string name="meaning_12">The Evolver</string>
-    <string name="meaning_13">The Fashioner</string>
-    <string name="meaning_14">The Most Forgiving</string>
-    <string name="meaning_15">The All-Prevailing One</string>
-    <string name="meaning_16">The Bestower of All</string>
-    <string name="meaning_17">The Provider</string>
-    <string name="meaning_18">The Opener</string>
-    <string name="meaning_19">The All-Knowing</string>
-    <string name="meaning_20">The Withholder</string>
-    <string name="meaning_21">The Extender</string>
-    <string name="meaning_22">The Reducer</string>
-    <string name="meaning_23">The Exalter</string>
-    <string name="meaning_24">The Honourer</string>
-    <string name="meaning_25">The Humiliator</string>
-    <string name="meaning_26">The All-Hearing</string>
-    <string name="meaning_27">The All-Seeing</string>
-    <string name="meaning_28">The Judge</string>
-    <string name="meaning_29">The Utterly Just</string>
-    <string name="meaning_30">The Most Gentle</string>
-    <string name="meaning_31">The All-Aware</string>
-    <string name="meaning_32">The Forbearing</string>
-    <string name="meaning_33">The Magnificent One</string>
-    <string name="meaning_34">The Ever-Forgiving</string>
-    <string name="meaning_35">The Appreciative</string>
-    <string name="meaning_36">The Most High</string>
-    <string name="meaning_37">The Great</string>
-    <string name="meaning_38">The Preserver</string>
-    <string name="meaning_39">The Sustainer</string>
-    <string name="meaning_40">The Reckoner</string>
-    <string name="meaning_41">The Majestic One</string>
-    <string name="meaning_42">The Most Generous</string>
-    <string name="meaning_43">The Watchful One</string>
-    <string name="meaning_44">The Responding One</string>
-    <string name="meaning_45">The All-Encompassing</string>
-    <string name="meaning_46">The Perfectly Wise</string>
-    <string name="meaning_47">The Loving One</string>
-    <string name="meaning_48">The Glorious One</string>
-    <string name="meaning_49">The Resurrector</string>
-    <string name="meaning_50">The Witness</string>
-    <string name="meaning_51">The Absolute Truth</string>
-    <string name="meaning_52">The Trustee</string>
-    <string name="meaning_53">The All-Strong</string>
-    <string name="meaning_54">The Firm</string>
-    <string name="meaning_55">The Protecting Friend</string>
-    <string name="meaning_56">The Praiseworthy</string>
-    <string name="meaning_57">The All-Enumerating One</string>
-    <string name="meaning_58">The Originator</string>
-    <string name="meaning_59">The Restorer</string>
-    <string name="meaning_60">The Giver of Life</string>
-    <string name="meaning_61">The Taker of Life</string>
-    <string name="meaning_62">The Ever Living</string>
-    <string name="meaning_63">The Self-Subsisting One</string>
-    <string name="meaning_64">The Finder</string>
-    <string name="meaning_65">The All-Noble</string>
-    <string name="meaning_66">The One</string>
-    <string name="meaning_67">The Only One</string>
-    <string name="meaning_68">The Satisfier of All Needs</string>
-    <string name="meaning_69">The Omnipotent One</string>
-    <string name="meaning_70">The Powerful One</string>
-    <string name="meaning_71">The Expediter</string>
-    <string name="meaning_72">The Delayer</string>
-    <string name="meaning_73">The First</string>
-    <string name="meaning_74">The Last</string>
-    <string name="meaning_75">The Perceptible</string>
-    <string name="meaning_76">The Hidden</string>
-    <string name="meaning_77">The Governor</string>
-    <string name="meaning_78">The Self Exalted</string>
-    <string name="meaning_79">The Source of All Goodness</string>
-    <string name="meaning_80">The Ever-Pardoning One</string>
-    <string name="meaning_81">The Avenger</string>
-    <string name="meaning_82">The Forgiver</string>
-    <string name="meaning_83">The Most Kind</string>
-    <string name="meaning_84">The Master of the Kingdom</string>
-    <string name="meaning_85">The Lord of Majesty and Bounty</string>
-    <string name="meaning_86">The Just One</string>
-    <string name="meaning_87">The Gatherer</string>
-    <string name="meaning_88">The Rich One</string>
-    <string name="meaning_89">The Enricher</string>
-    <string name="meaning_90">The Preventer</string>
-    <string name="meaning_91">The Distressor</string>
-    <string name="meaning_92">The Benefactor</string>
-    <string name="meaning_93">The Light</string>
-    <string name="meaning_94">The Guide</string>
-    <string name="meaning_95">The Incomparable Inventor</string>
-    <string name="meaning_96">The Everlasting</string>
-    <string name="meaning_97">The Inheritor</string>
-    <string name="meaning_98">The Guide to the Right Path</string>
-    <string name="meaning_99">The Patient One</string>
+    <string-array name="meanings">
+        <item>The Greatest Name</item>
+        <item>The Most Gracious</item>
+        <item>The Most Merciful</item>
+        <item>The Absolute Ruler</item>
+        <item>The Most Pure</item>
+        <item>The Source of Peace</item>
+        <item>The Inspirer of Faith</item>
+        <item>The Protector</item>
+        <item>The Mighty One</item>
+        <item>The Compeller</item>
+        <item>The Supreme</item>
+        <item>The Creator</item>
+        <item>The Evolver</item>
+        <item>The Fashioner</item>
+        <item>The Most Forgiving</item>
+        <item>The All-Prevailing One</item>
+        <item>The Bestower of All</item>
+        <item>The Provider</item>
+        <item>The Opener</item>
+        <item>The All-Knowing</item>
+        <item>The Withholder</item>
+        <item>The Extender</item>
+        <item>The Reducer</item>
+        <item>The Exalter</item>
+        <item>The Honourer</item>
+        <item>The Humiliator</item>
+        <item>The All-Hearing</item>
+        <item>The All-Seeing</item>
+        <item>The Judge</item>
+        <item>The Utterly Just</item>
+        <item>The Most Gentle</item>
+        <item>The All-Aware</item>
+        <item>The Forbearing</item>
+        <item>The Magnificent One</item>
+        <item>The Ever-Forgiving</item>
+        <item>The Appreciative</item>
+        <item>The Most High</item>
+        <item>The Great</item>
+        <item>The Preserver</item>
+        <item>The Sustainer</item>
+        <item>The Reckoner</item>
+        <item>The Majestic One</item>
+        <item>The Most Generous</item>
+        <item>The Watchful One</item>
+        <item>The Responding One</item>
+        <item>The All-Encompassing</item>
+        <item>The Perfectly Wise</item>
+        <item>The Loving One</item>
+        <item>The Glorious One</item>
+        <item>The Resurrector</item>
+        <item>The Witness</item>
+        <item>The Absolute Truth</item>
+        <item>The Trustee</item>
+        <item>The All-Strong</item>
+        <item>The Firm</item>
+        <item>The Protecting Friend</item>
+        <item>The Praiseworthy</item>
+        <item>The All-Enumerating One</item>
+        <item>The Originator</item>
+        <item>The Restorer</item>
+        <item>The Giver of Life</item>
+        <item>The Taker of Life</item>
+        <item>The Ever Living</item>
+        <item>The Self-Subsisting One</item>
+        <item>The Finder</item>
+        <item>The All-Noble</item>
+        <item>The One</item>
+        <item>The Only One</item>
+        <item>The Satisfier of All Needs</item>
+        <item>The Omnipotent One</item>
+        <item>The Powerful One</item>
+        <item>The Expediter</item>
+        <item>The Delayer</item>
+        <item>The First</item>
+        <item>The Last</item>
+        <item>The Perceptible</item>
+        <item>The Hidden</item>
+        <item>The Governor</item>
+        <item>The Self Exalted</item>
+        <item>The Source of All Goodness</item>
+        <item>The Ever-Pardoning One</item>
+        <item>The Avenger</item>
+        <item>The Forgiver</item>
+        <item>The Most Kind</item>
+        <item>The Master of the Kingdom</item>
+        <item>The Lord of Majesty and Bounty</item>
+        <item>The Just One</item>
+        <item>The Gatherer</item>
+        <item>The Rich One</item>
+        <item>The Enricher</item>
+        <item>The Preventer</item>
+        <item>The Distressor</item>
+        <item>The Benefactor</item>
+        <item>The Light</item>
+        <item>The Guide</item>
+        <item>The Incomparable Inventor</item>
+        <item>The Everlasting</item>
+        <item>The Inheritor</item>
+        <item>The Guide to the Right Path</item>
+        <item>The Patient One</item>
+    </string-array>
 </resources>

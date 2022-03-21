@@ -26,7 +26,7 @@ public class Lists extends Fragment{
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
+        //TODO: STORE THE ARRAY LIST FROM THE XML FILE!!
 
     }
 
