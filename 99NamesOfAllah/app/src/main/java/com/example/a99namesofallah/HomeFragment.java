@@ -1,5 +1,6 @@
 package com.example.a99namesofallah;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,6 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.a99namesofallah.Lists.Lists;
+
+import java.util.Arrays;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,6 +60,12 @@ public class HomeFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+        //storing the arrays of names and meanings
+        Resources res = getResources();
+        Lists.arabicNames = Arrays.asList(res.getStringArray(R.array.arabic_names));
+        Lists.englishNames = Arrays.asList(res.getStringArray(R.array.english_names));
+        Lists.meanings = Arrays.asList(res.getStringArray(R.array.meanings));
     }
 
     @Override
