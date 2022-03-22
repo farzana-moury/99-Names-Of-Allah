@@ -61,7 +61,7 @@ NameSet extends Fragment {
 
         if( englishName != null) {
             TextView arabName = view.findViewById(R.id.eng_name); // english name
-            arabName.setText(arabicName);
+            arabName.setText(englishName);
         }
 
         if( meaning != null) {
