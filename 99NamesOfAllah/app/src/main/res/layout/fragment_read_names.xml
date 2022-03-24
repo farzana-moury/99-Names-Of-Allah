@@ -11,10 +11,23 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/appBar_label"
+            app:tabSelectedTextColor="@color/teal_200"
+            app:tabTextColor="@color/black"
+            app:tabTextAppearance="@style/MyCustomTabTextSize"/>
+        </HorizontalScrollView>
+
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

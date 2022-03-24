@@ -1,7 +1,5 @@
 package com.example.a99namesofallah;
 
-import static com.example.a99namesofallah.databinding.FragmentReadNamesBinding.inflate;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,22 +10,19 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.navigation.fragment.NavHostFragment;
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.a99namesofallah.Lists.Lists;
 import com.example.a99namesofallah.NameSet.NameSet;
 import com.example.a99namesofallah.databinding.FragmentReadNamesBinding;
-
-import java.util.Objects;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class ReadNamesFragment extends Fragment {
 
     private FragmentReadNamesBinding binding;
+    ViewPager2 viewPager;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -40,7 +35,7 @@ public class ReadNamesFragment extends Fragment {
 
         // set an adapter to the custom one we made below
         CustomViewPagerAdapter adapter = new CustomViewPagerAdapter(requireActivity());
-        ViewPager2 viewPager = binding.viewPager;
+        viewPager = binding.viewPager;
         viewPager.setAdapter(adapter);
 
         return binding.getRoot();
@@ -49,6 +44,12 @@ public class ReadNamesFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        //tab layout will help the user navigate through all the names easily
+        TabLayout tabLayout = view.findViewById(R.id.tab_layout);
+        new TabLayoutMediator(tabLayout, viewPager,
+                (tab, position) -> tab.setText("" + position + " "))
+                .attach();
     }
 
     @Override
