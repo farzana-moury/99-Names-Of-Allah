@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.a99namesofallah.Lists.Lists;
 import com.example.a99namesofallah.databinding.FragmentMemorizeNamesBinding;
