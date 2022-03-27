@@ -61,7 +61,7 @@ public class MemorizeNamesFragment extends Fragment {
         shuffleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                randomPosition = new Random().nextInt(99);
+                randomPosition = new Random().nextInt(100);
                 viewPager2.setAdapter(adapter);
 
             //name set will disappear and you will have to guess again
