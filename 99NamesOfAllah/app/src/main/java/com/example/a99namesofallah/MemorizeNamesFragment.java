@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -21,14 +21,15 @@ import java.util.Random;
 
 public class MemorizeNamesFragment extends Fragment {
 
-    private FragmentMemorizeNamesBinding binding;
-    ViewPager2 viewPager;
+    @SuppressLint("StaticFieldLeak")
+    public static FragmentMemorizeNamesBinding binding;
+    ViewPager2 viewPager2;
     int randomPosition = 0;
 
     @SuppressLint("SetTextI18n")
     @Override
     public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
+            @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
 
@@ -36,16 +37,39 @@ public class MemorizeNamesFragment extends Fragment {
 
         // set an adapter to the custom one we made below
         MemorizeNamesFragment.CustomViewPagerAdapter adapter = new MemorizeNamesFragment.CustomViewPagerAdapter(requireActivity());
-        viewPager = binding.viewPager2;
-        randomPosition = new Random().nextInt(99);
-        viewPager.setAdapter(adapter);
+        viewPager2 = binding.viewPager2;
+
+        //initially showing a random name set
+        randomPosition = new Random().nextInt(100); //generates between 0 to 99
+        viewPager2.setAdapter(adapter);
+
+        //and hiding it from view
+        viewPager2.setVisibility(View.INVISIBLE);
+
+        //showing the answer whenever you click the answer button
+        Button answerButton = binding.answerButton;
+        answerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            //name set will appear when you want to see the answer
+               viewPager2.setVisibility(View.VISIBLE);
+            }
+        });
+
+        //randomizing (shuffling) the name set whenever you click the shuffle button
+        Button shuffleButton = binding.shuffleButton;
+        shuffleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                randomPosition = new Random().nextInt(99);
+                viewPager2.setAdapter(adapter);
+
+            //name set will disappear and you will have to guess again
+                viewPager2.setVisibility(View.INVISIBLE);
+            }
+        });
 
         return binding.getRoot();
-
-    }
-
-    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
     }
 
     @Override
@@ -65,10 +89,10 @@ public class MemorizeNamesFragment extends Fragment {
         public Fragment createFragment(int position) {
             if (position == 0) {
                 return NameSet.newInstance(Lists.arabicNames.get(randomPosition), Lists.englishNames.get(randomPosition),
-                        Lists.meanings.get(randomPosition));
+                        Lists.meanings.get(randomPosition), "Guess Name " + randomPosition);
             }
-            return NameSet.newInstance("Default", "Default",
-                    "Default");
+            return NameSet.newInstance("", "",
+                    "", "Guess Name " + randomPosition);
         }
 
         @Override

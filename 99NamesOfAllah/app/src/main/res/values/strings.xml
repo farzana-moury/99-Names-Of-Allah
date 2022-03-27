@@ -13,6 +13,8 @@
 
     <string name="read_fragment_button">Read</string>
     <string name="memorize_fragment_button">Memorize</string>
+    <string name="shuffle_button">Shuffle</string>
+    <string name="answer_button">Answer</string>
 
     <!--  Allah's 99 names in English  -->
     <string-array name="english_names">
@@ -34,7 +36,7 @@
         <item>Al-Qahaar</item>
         <item>Al-Wahhab</item>
         <item>Ar-Razzaq</item>
-        <item>Ar-Fattah</item>
+        <item>Al-Fattah</item>
         <item>Al-\'Aleem</item>
         <item>Al-Qabid</item>
         <item>Al-Basit</item>
