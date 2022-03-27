@@ -26,7 +26,7 @@ public class ReadNamesFragment extends Fragment {
     @SuppressLint("SetTextI18n")
     @Override
     public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
+            @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
 
@@ -57,7 +57,7 @@ public class ReadNamesFragment extends Fragment {
         binding = null;
     }
 
-    public class CustomViewPagerAdapter extends FragmentStateAdapter {
+    public static class CustomViewPagerAdapter extends FragmentStateAdapter {
 
         public CustomViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
             super(fragmentActivity);

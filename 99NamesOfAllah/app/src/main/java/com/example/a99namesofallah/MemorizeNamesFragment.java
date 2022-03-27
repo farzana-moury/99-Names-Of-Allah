@@ -48,25 +48,19 @@ public class MemorizeNamesFragment extends Fragment {
 
         //showing the answer whenever you click the answer button
         Button answerButton = binding.answerButton;
-        answerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            //name set will appear when you want to see the answer
-               viewPager2.setVisibility(View.VISIBLE);
-            }
+        answerButton.setOnClickListener(view -> {
+        //name set will appear when you want to see the answer
+           viewPager2.setVisibility(View.VISIBLE);
         });
 
         //randomizing (shuffling) the name set whenever you click the shuffle button
         Button shuffleButton = binding.shuffleButton;
-        shuffleButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                randomPosition = new Random().nextInt(100);
-                viewPager2.setAdapter(adapter);
+        shuffleButton.setOnClickListener(view -> {
+            randomPosition = new Random().nextInt(100);
+            viewPager2.setAdapter(adapter);
 
-            //name set will disappear and you will have to guess again
-                viewPager2.setVisibility(View.INVISIBLE);
-            }
+        //name set will disappear and you will have to guess again
+            viewPager2.setVisibility(View.INVISIBLE);
         });
 
         return binding.getRoot();
