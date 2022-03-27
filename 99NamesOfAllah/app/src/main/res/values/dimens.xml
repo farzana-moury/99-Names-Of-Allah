@@ -1,5 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
     <style name="MyCustomTabTextSize" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">14sp</item>
     </style>
