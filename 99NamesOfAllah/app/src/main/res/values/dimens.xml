@@ -1,10 +1,17 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+
     <dimen name="five_dp">5dp</dimen>
     <dimen name="ten_dp">10dp</dimen>
     <dimen name="twenty_dp">20dp</dimen>
     <dimen name="forty_dp">40dp</dimen>
+
     <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twenty_five_sp">25sp</dimen>
+    <dimen name="forty_sp">40sp</dimen>
+
+    <dimen name="card_view_lengths">300dp</dimen>
+
     <style name="MyCustomTabTextSize" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">14sp</item>
     </style>

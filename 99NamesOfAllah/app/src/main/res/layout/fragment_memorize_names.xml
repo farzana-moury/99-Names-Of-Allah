@@ -41,7 +41,8 @@
                 android:backgroundTint="@color/blue_500"
                 android:text="@string/answer_button"
                 android:textColor="#FFFFFF"
-                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+                style="?android:attr/buttonBarButtonStyle" />
 
             <Button
                 android:id="@+id/shuffle_button"
@@ -52,7 +53,8 @@
                 android:backgroundTint="@color/teal_500"
                 android:text="@string/shuffle_button"
                 android:textColor="#FFFFFF"
-                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+                style="?android:attr/buttonBarButtonStyle" />
         </LinearLayout>
 
     </LinearLayout>
